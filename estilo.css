@@ -39,6 +39,9 @@ body {
   justify-content: space-between;
 }
 
+.list-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .list-item__content {
   display: flex;
   flex-direction: column;
@@ -54,7 +57,6 @@ body {
 }
 
 .list-item__name {
-  margin-top: 0;
   font-size: 1.4rem;
   color: rgb(58, 58, 184);
 }
