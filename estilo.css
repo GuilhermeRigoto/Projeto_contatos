@@ -59,10 +59,12 @@ body {
 .list-item__name {
   font-size: 1.4rem;
   color: rgb(58, 58, 184);
+  margin: 0;
 }
 
 .list-item__email {
   color: #c2c7c7;
+  margin-top: 8px;
 }
 
 .list-item__icon {
