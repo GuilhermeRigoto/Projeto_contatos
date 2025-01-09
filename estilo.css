@@ -54,6 +54,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px;
+  opacity: 0;
 }
 
 .list-item__name {
@@ -69,4 +70,8 @@ body {
 
 .list-item__icon {
   margin-right: 14px;
+}
+
+.list-item:hover .list-item__action {
+  opacity: 0.3;
 }
